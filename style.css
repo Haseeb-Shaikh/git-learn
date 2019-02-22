@@ -1,0 +1,49 @@
+.wrapper{
+	margin: 10px;
+}
+h1{
+	text-align: center;
+	background-color: #eee;
+}
+.wrapper > img{
+	width: 200px;
+	float:right;
+	margin: 10px;
+}
+.wrapper:after{
+	content: "";
+	display: block;
+
+}
+.services:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.service{
+	float: left;
+	width: 29%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #eeee;
+	text-align: center;
+}
+.content{
+	padding: 20px;
+	background-color: #eee;
+	clear: left;
+	margin-top: 40px;
+
+}
+.columns > section, aside{
+	float: left;
+	width: 46%;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	border-radius:3% ;
+	background-color: #E4E4E4;
+}
+h3{
+	text-align: center;
+}
